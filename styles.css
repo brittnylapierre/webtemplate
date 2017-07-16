@@ -106,13 +106,11 @@ html, body{
 .parallax-bg {
   background-attachment: fixed;
   background-repeat: repeat;
-  /*background-size: contain;*/
   background-image: url("./img/foggy_birds_@2X.png");
 }
 
 .section {
   position: relative;
-  padding: 25vh 10%;
   min-height: 100vh;
   width: 100vw;
   box-sizing: border-box;
