@@ -118,6 +118,7 @@ html, body{
   min-height: 100vh;
   min-width: 100%;
   z-index: -9999;
+  background: black;
 }
 
 .stretch {
@@ -205,6 +206,18 @@ html, body{
 
   #join {
     width: 400px;
+  }
+}
+
+@media(max-height: 560px){
+  .stretch {
+    margin-top: 600px;
+  }
+  #centerpiece {
+    height: 600px;
+  }
+  .social-media-links.side {
+    top: 95px;
   }
 }
 
