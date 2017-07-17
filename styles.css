@@ -15,8 +15,20 @@ html, body{
   padding: 0;
 }
 
+.social-media-links {
+  margin-right:80px !important;
+  height:100%;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.social-media-icon {
+  width: 19px;
+  margin-left: 10px;
+}
+
 #mlh {
-  position: absolute;
+  position: fixed;/*absolute;*/
   top: -1px;
   right: 15px;
   z-index: 500001;
@@ -62,14 +74,20 @@ html, body{
   font-size: medium;
 }
 
+#join .text {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 #menu {
   position: fixed;
   top: 0;
   right: 0;
   left:0;
-  height:50px;
-  background-color: darkred;
-  z-index:50000;
+  background-color: darkred !important;
+  z-index:50000 !important;
+  border-radius: 0 !important;
+  border: none !important;
 }
 
 .main-wrapper {
@@ -176,4 +194,37 @@ footer {
   height: 400px;
 }
 
+/*@media (max-width : 992px) {
+  #mlh {
+    display:none;
+  }
+}
+
+@media(min-width : 992px){
+  .search {
+    margin-right:90px !important;
+  }
+}*/
 /*1200px 992px 768px 480px 320px*/
+.navbar-brand{
+  color: #fefefe !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-right:20px;
+}
+
+#navbar-logo {
+  width:50px;
+  margin-right:10px;
+}
+
+/*OVERRIDES*/
+.nav.navbar-nav li a {
+  color: #fefefe !important;
+}
+
+.nav.navbar-nav .active a {
+  background-color: #942525 !important;
+}
+
