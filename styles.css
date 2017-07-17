@@ -270,7 +270,29 @@ footer {
   color: #fefefe !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #dcdcdc !important;
+}
+
 .nav.navbar-nav .active a {
   background-color: #942525 !important;
 }
 
+.navbar-default .navbar-toggle{
+  border-color: #7a0000 !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #920303 !important; 
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: #942525 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #600d0d !important;
+}
+
+.navbar-collapse {
+  border-color: #600d0d !important;
+}
