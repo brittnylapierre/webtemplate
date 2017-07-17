@@ -31,12 +31,17 @@ html, body{
   opacity:0.9;
 }
 
+
 .social-media-icon {
   cursor: pointer;
   width: 16px;
   /* margin-top: 3px; */
   margin-bottom: 11px;
   opacity: 0.85;
+}
+
+.social-media-icon:hover {
+  opacity:0.95;
 }
 
 .last {
@@ -212,6 +217,9 @@ html, body{
 }
 
 @media(max-height: 560px){
+  #main-vid {
+    transform: scale(2);
+  }
   .stretch {
     margin-top: 600px;
   }
@@ -253,10 +261,11 @@ footer {
   margin-right:10px;
 }
 
-
-
 @media (max-width : 768px) {
   .social-media-links.side {
+    display: none;
+  }
+  #mlh {
     display: none;
   }
 }
@@ -266,7 +275,29 @@ footer {
   color: #fefefe !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #dcdcdc !important;
+}
+
 .nav.navbar-nav .active a {
   background-color: #942525 !important;
 }
 
+.navbar-default .navbar-toggle{
+  border-color: #7a0000 !important;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #920303 !important; 
+}
+
+.navbar-default .navbar-toggle:active {
+  background-color: #942525 !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #600d0d !important;
+}
+
+.navbar-collapse {
+  border-color: #600d0d !important;
+}
