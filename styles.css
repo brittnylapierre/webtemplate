@@ -19,14 +19,16 @@ html, body{
     /* margin-right: 80px !important; */
     /* height: 100%; */
   text-align: center;
-  position: absolute;
-  top: 40%;
-  left: 0px;
+  position: fixed/*absolute*/;
+  top: 38%;
+  left: -4px;
   display: flex;
   padding: 15px 20px;
   background: black;
   flex-direction: column;
   margin-top: 0;
+  z-index: 70000;
+  opacity:0.9;
 }
 
 .social-media-icon {
@@ -118,6 +120,7 @@ html, body{
   min-height: 100vh;
   min-width: 100%;
   z-index: -9999;
+  background: black;
 }
 
 .stretch {
@@ -205,6 +208,18 @@ html, body{
 
   #join {
     width: 400px;
+  }
+}
+
+@media(max-height: 560px){
+  .stretch {
+    margin-top: 600px;
+  }
+  #centerpiece {
+    height: 600px;
+  }
+  .social-media-links.side {
+    top: 95px;
   }
 }
 
