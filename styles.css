@@ -256,10 +256,11 @@ footer {
   margin-right:10px;
 }
 
-
-
 @media (max-width : 768px) {
   .social-media-links.side {
+    display: none;
+  }
+  #mlh {
     display: none;
   }
 }
