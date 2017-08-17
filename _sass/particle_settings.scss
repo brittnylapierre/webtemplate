@@ -15,6 +15,28 @@ canvas {
 	background: linear-gradient(to bottom,  #993b3b 0%,#3f1e1e 0%,#3f1e1e 0%,#3f1e1e 10%,#3f1e1e 25%,#3f1e1e 42%,#260000 77%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#993b3b', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
+
+/* Medium Devices, Desktops */
+@media (min-width : 0px) {
+  .particles-js {
+    height: 100vh;
+  }
+}
+
+/* Ipads devices */
+@media (min-height : 1024px) {
+  .particles-js {
+    height: 60vh;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+  .particles-js {
+    height: 91vh;
+  }
+}
+
 @media (max-height: 560px){
 	.particles-js {
 	    height: 650px;
