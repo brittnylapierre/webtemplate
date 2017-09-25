@@ -13,7 +13,7 @@ var options = {
 		"shape":{
 			"type":"circle",
 			"stroke": {
-				"width":1,
+				"width":0,
 				"color":"#000000"
 			},
 			"polygon": {
