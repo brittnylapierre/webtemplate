@@ -113,6 +113,12 @@ a:active, a:focus {
  }
 }
 
+@media (max-width:768px){
+  #logo {
+    margin-top: 40px;
+  }
+}
+
 #logo {
   width: 485px;//412px;
   opacity: 0.83;
@@ -120,7 +126,7 @@ a:active, a:focus {
 
 #join {
   width: 20%;
-  background: rgba(0, 0, 0, 0.74);
+  background: rgba(32, 32, 32, 0.74);
   /*margin: auto;*/
   margin-top: 40px;
   padding: 15px 25px;
@@ -148,13 +154,11 @@ a:active, a:focus {
         width: 55px;
         height: 37px;
         margin-left: -5px;
-        padding: 6px 12px;
-        background: #232323;
-        border-color: transparent;
-        color: gainsboro;
-      }
+        padding: 6px 12px;      }
     }
   }
+
+
     /*span {
       font-weight: bold;
       color: rgb(105, 105, 105);
